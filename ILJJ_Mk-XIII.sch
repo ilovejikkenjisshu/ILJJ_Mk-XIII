@@ -1,0 +1,577 @@
+EESchema Schematic File Version 4
+LIBS:ILJJ_Mk-XIII-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:7400 U3
+U 1 1 5C7ED70E
+P 5150 2550
+F 0 "U3" H 5150 2600 50  0000 C CNN
+F 1 "7400" H 5150 2500 50  0000 C CNN
+F 2 "" H 5150 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5150 2550 50  0001 C CNN
+	1    5150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U3
+U 2 1 5C7ED777
+P 5150 3000
+F 0 "U3" H 5150 3050 50  0000 C CNN
+F 1 "7400" H 5150 2950 50  0000 C CNN
+F 2 "" H 5150 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5150 3000 50  0001 C CNN
+	2    5150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U3
+U 4 1 5C7ED793
+P 5850 2550
+F 0 "U3" H 5850 2600 50  0000 C CNN
+F 1 "7400" H 5850 2500 50  0000 C CNN
+F 2 "" H 5850 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5850 2550 50  0001 C CNN
+	4    5850 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:7400 U3
+U 3 1 5C7ED7BB
+P 5850 3000
+F 0 "U3" H 5850 3050 50  0000 C CNN
+F 1 "7400" H 5850 2950 50  0000 C CNN
+F 2 "" H 5850 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5850 3000 50  0001 C CNN
+	3    5850 3000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5550 2900 5550 2800
+Wire Wire Line
+	5550 2650 5550 2750
+Wire Wire Line
+	5550 2750 6150 2800
+Wire Wire Line
+	6150 2800 6150 3000
+Wire Wire Line
+	5550 2550 5550 2450
+Wire Wire Line
+	5450 3000 5550 3000
+Wire Wire Line
+	5550 3000 5550 3100
+Wire Wire Line
+	4850 2900 4850 2800
+Wire Wire Line
+	4850 2800 5450 2750
+Wire Wire Line
+	5450 2750 5450 2550
+Connection ~ 5450 2550
+Wire Wire Line
+	5450 2550 5550 2550
+Wire Wire Line
+	6150 2750 6150 2550
+Wire Wire Line
+	5550 2800 6150 2750
+Wire Wire Line
+	4850 2650 4750 2650
+Wire Wire Line
+	4750 2650 4750 3100
+Wire Wire Line
+	4750 3100 4850 3100
+Wire Wire Line
+	4650 2450 4850 2450
+$Comp
+L 74xx:7400 U5
+U 1 1 5C7EF752
+P 6650 2550
+F 0 "U5" H 6650 2600 50  0000 C CNN
+F 1 "7400" H 6650 2500 50  0000 C CNN
+F 2 "" H 6650 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6650 2550 50  0001 C CNN
+	1    6650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U5
+U 2 1 5C7EF759
+P 6650 3000
+F 0 "U5" H 6650 3050 50  0000 C CNN
+F 1 "7400" H 6650 2950 50  0000 C CNN
+F 2 "" H 6650 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6650 3000 50  0001 C CNN
+	2    6650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U5
+U 4 1 5C7EF760
+P 7350 2550
+F 0 "U5" H 7350 2600 50  0000 C CNN
+F 1 "7400" H 7350 2500 50  0000 C CNN
+F 2 "" H 7350 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 7350 2550 50  0001 C CNN
+	4    7350 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:7400 U5
+U 3 1 5C7EF767
+P 7350 3000
+F 0 "U5" H 7350 3050 50  0000 C CNN
+F 1 "7400" H 7350 2950 50  0000 C CNN
+F 2 "" H 7350 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 7350 3000 50  0001 C CNN
+	3    7350 3000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7050 2900 7050 2800
+Wire Wire Line
+	7050 2650 7050 2750
+Wire Wire Line
+	7050 2750 7650 2800
+Wire Wire Line
+	7050 2550 7050 2450
+Wire Wire Line
+	6950 3000 7050 3000
+Wire Wire Line
+	7050 3000 7050 3100
+Wire Wire Line
+	6350 2900 6350 2800
+Wire Wire Line
+	6350 2800 6950 2750
+Wire Wire Line
+	6950 2750 6950 2550
+Connection ~ 6950 2550
+Wire Wire Line
+	6950 2550 7050 2550
+Wire Wire Line
+	7650 2750 7650 2550
+Wire Wire Line
+	7050 2800 7650 2750
+Wire Wire Line
+	6350 2650 6250 2650
+Wire Wire Line
+	6250 2650 6250 3100
+Wire Wire Line
+	6250 3100 6350 3100
+Wire Wire Line
+	6150 2550 6350 2550
+Wire Wire Line
+	6350 2550 6350 2450
+Connection ~ 6150 2550
+$Comp
+L 74xx:7400 U4
+U 1 1 5C7F1847
+P 5150 4050
+F 0 "U4" H 5150 4100 50  0000 C CNN
+F 1 "7400" H 5150 4000 50  0000 C CNN
+F 2 "" H 5150 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5150 4050 50  0001 C CNN
+	1    5150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U4
+U 2 1 5C7F184E
+P 5150 4500
+F 0 "U4" H 5150 4550 50  0000 C CNN
+F 1 "7400" H 5150 4450 50  0000 C CNN
+F 2 "" H 5150 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5150 4500 50  0001 C CNN
+	2    5150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U4
+U 4 1 5C7F1855
+P 5850 4050
+F 0 "U4" H 5850 4100 50  0000 C CNN
+F 1 "7400" H 5850 4000 50  0000 C CNN
+F 2 "" H 5850 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5850 4050 50  0001 C CNN
+	4    5850 4050
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:7400 U4
+U 3 1 5C7F185C
+P 5850 4500
+F 0 "U4" H 5850 4550 50  0000 C CNN
+F 1 "7400" H 5850 4450 50  0000 C CNN
+F 2 "" H 5850 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5850 4500 50  0001 C CNN
+	3    5850 4500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5550 4400 5550 4300
+Wire Wire Line
+	5550 4150 5550 4250
+Wire Wire Line
+	5550 4250 6150 4300
+Wire Wire Line
+	6150 4300 6150 4500
+Wire Wire Line
+	5550 4050 5550 3950
+Wire Wire Line
+	5450 4500 5550 4500
+Wire Wire Line
+	5550 4500 5550 4600
+Wire Wire Line
+	4850 4400 4850 4300
+Wire Wire Line
+	4850 4300 5450 4250
+Wire Wire Line
+	5450 4250 5450 4050
+Connection ~ 5450 4050
+Wire Wire Line
+	5450 4050 5550 4050
+Wire Wire Line
+	6150 4250 6150 4050
+Wire Wire Line
+	5550 4300 6150 4250
+Wire Wire Line
+	4850 4150 4750 4150
+Wire Wire Line
+	4750 4150 4750 4600
+Wire Wire Line
+	4750 4600 4850 4600
+Wire Wire Line
+	4650 3950 4850 3950
+$Comp
+L 74xx:7400 U6
+U 1 1 5C7F1875
+P 6650 4050
+F 0 "U6" H 6650 4100 50  0000 C CNN
+F 1 "7400" H 6650 4000 50  0000 C CNN
+F 2 "" H 6650 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6650 4050 50  0001 C CNN
+	1    6650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U6
+U 2 1 5C7F187C
+P 6650 4500
+F 0 "U6" H 6650 4550 50  0000 C CNN
+F 1 "7400" H 6650 4450 50  0000 C CNN
+F 2 "" H 6650 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 6650 4500 50  0001 C CNN
+	2    6650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U6
+U 4 1 5C7F1883
+P 7350 4050
+F 0 "U6" H 7350 4100 50  0000 C CNN
+F 1 "7400" H 7350 4000 50  0000 C CNN
+F 2 "" H 7350 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 7350 4050 50  0001 C CNN
+	4    7350 4050
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:7400 U6
+U 3 1 5C7F188A
+P 7350 4500
+F 0 "U6" H 7350 4550 50  0000 C CNN
+F 1 "7400" H 7350 4450 50  0000 C CNN
+F 2 "" H 7350 4500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 7350 4500 50  0001 C CNN
+	3    7350 4500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7050 4400 7050 4300
+Wire Wire Line
+	7050 4150 7050 4250
+Wire Wire Line
+	7050 4250 7650 4300
+Wire Wire Line
+	7650 4300 7650 4500
+Wire Wire Line
+	7050 4050 7050 3950
+Wire Wire Line
+	6950 4500 7050 4500
+Wire Wire Line
+	7050 4500 7050 4600
+Wire Wire Line
+	6350 4400 6350 4300
+Wire Wire Line
+	6350 4300 6950 4250
+Wire Wire Line
+	6950 4250 6950 4050
+Connection ~ 6950 4050
+Wire Wire Line
+	6950 4050 7050 4050
+Wire Wire Line
+	7650 4250 7650 4050
+Wire Wire Line
+	7050 4300 7650 4250
+Wire Wire Line
+	6350 4150 6250 4150
+Wire Wire Line
+	6250 4150 6250 4600
+Wire Wire Line
+	6250 4600 6350 4600
+Wire Wire Line
+	6150 4050 6350 4050
+Wire Wire Line
+	6350 4050 6350 3950
+Connection ~ 6150 4050
+$Comp
+L 74xx:7400 U7
+U 1 1 5C7F38B2
+P 4450 3400
+F 0 "U7" H 4450 3450 50  0000 C CNN
+F 1 "7400" H 4450 3350 50  0000 C CNN
+F 2 "" H 4450 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 4450 3400 50  0001 C CNN
+	1    4450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U7
+U 4 1 5C7F39A3
+P 5050 3400
+F 0 "U7" H 5050 3450 50  0000 C CNN
+F 1 "7400" H 5050 3350 50  0000 C CNN
+F 2 "" H 5050 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5050 3400 50  0001 C CNN
+	4    5050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3500 4750 3400
+Connection ~ 4750 3100
+Connection ~ 4750 3400
+Wire Wire Line
+	5350 3400 6250 3400
+Wire Wire Line
+	6250 3400 6250 3100
+Connection ~ 6250 3100
+Wire Wire Line
+	4150 3300 4150 3400
+$Comp
+L 74xx:7400 U7
+U 3 1 5C7F71F9
+P 5050 4900
+F 0 "U7" H 5050 4950 50  0000 C CNN
+F 1 "7400" H 5050 4850 50  0000 C CNN
+F 2 "" H 5050 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 5050 4900 50  0001 C CNN
+	3    5050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U7
+U 2 1 5C7F724D
+P 4450 4900
+F 0 "U7" H 4450 4950 50  0000 C CNN
+F 1 "7400" H 4450 4850 50  0000 C CNN
+F 2 "" H 4450 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 4450 4900 50  0001 C CNN
+	2    4450 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5000 4750 4900
+Connection ~ 4750 4600
+Connection ~ 4750 4800
+Wire Wire Line
+	4750 4800 4750 4600
+Connection ~ 4750 4900
+Wire Wire Line
+	4750 4900 4750 4800
+Wire Wire Line
+	4150 4800 4150 4900
+Wire Wire Line
+	5350 4900 6250 4900
+Wire Wire Line
+	6250 4900 6250 4600
+Connection ~ 6250 4600
+Text Label 4050 3400 2    50   ~ 0
+CLK
+Wire Wire Line
+	4050 3400 4150 3400
+Connection ~ 4150 3400
+Wire Wire Line
+	4150 3400 4150 3500
+Text Label 4050 4900 2    50   ~ 0
+CLK
+Wire Wire Line
+	4050 4900 4150 4900
+Connection ~ 4150 4900
+Wire Wire Line
+	4150 4900 4150 5000
+Wire Wire Line
+	7650 2800 7650 3000
+Wire Wire Line
+	4750 3100 4750 3300
+Connection ~ 4750 3300
+Wire Wire Line
+	4750 3300 4750 3400
+$Comp
+L 74xx:7400 U1
+U 1 1 5C7F1BC4
+P 3150 2650
+F 0 "U1" H 3150 2700 50  0000 C CNN
+F 1 "7400" H 3150 2600 50  0000 C CNN
+F 2 "" H 3150 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3150 2650 50  0001 C CNN
+	1    3150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U1
+U 4 1 5C7F1EC3
+P 3750 2950
+F 0 "U1" H 3750 3000 50  0000 C CNN
+F 1 "7400" H 3750 2900 50  0000 C CNN
+F 2 "" H 3750 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3750 2950 50  0001 C CNN
+	4    3750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U1
+U 2 1 5C7F1F0B
+P 3750 2550
+F 0 "U1" H 3750 2600 50  0000 C CNN
+F 1 "7400" H 3750 2500 50  0000 C CNN
+F 2 "" H 3750 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3750 2550 50  0001 C CNN
+	2    3750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U1
+U 3 1 5C7F1F57
+P 4350 2750
+F 0 "U1" H 4350 2800 50  0000 C CNN
+F 1 "7400" H 4350 2700 50  0000 C CNN
+F 2 "" H 4350 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 4350 2750 50  0001 C CNN
+	3    4350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2550 4050 2650
+Wire Wire Line
+	4050 2850 4050 2950
+Wire Wire Line
+	3450 2850 2850 2850
+Wire Wire Line
+	2850 2850 2850 2750
+Connection ~ 2850 2750
+Wire Wire Line
+	2850 2750 2850 2550
+Wire Wire Line
+	2700 3050 3450 3050
+Wire Wire Line
+	2700 2750 2850 2750
+Wire Wire Line
+	2700 2450 3450 2450
+Wire Wire Line
+	4650 2750 4650 2450
+$Comp
+L 74xx:7400 U2
+U 1 1 5C80994D
+P 3150 4150
+F 0 "U2" H 3150 4200 50  0000 C CNN
+F 1 "7400" H 3150 4100 50  0000 C CNN
+F 2 "" H 3150 4150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3150 4150 50  0001 C CNN
+	1    3150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U2
+U 4 1 5C809954
+P 3750 4450
+F 0 "U2" H 3750 4500 50  0000 C CNN
+F 1 "7400" H 3750 4400 50  0000 C CNN
+F 2 "" H 3750 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3750 4450 50  0001 C CNN
+	4    3750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U2
+U 2 1 5C80995B
+P 3750 4050
+F 0 "U2" H 3750 4100 50  0000 C CNN
+F 1 "7400" H 3750 4000 50  0000 C CNN
+F 2 "" H 3750 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 3750 4050 50  0001 C CNN
+	2    3750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:7400 U2
+U 3 1 5C809962
+P 4350 4250
+F 0 "U2" H 4350 4300 50  0000 C CNN
+F 1 "7400" H 4350 4200 50  0000 C CNN
+F 2 "" H 4350 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn7400" H 4350 4250 50  0001 C CNN
+	3    4350 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4050 4050 4150
+Wire Wire Line
+	4050 4350 4050 4450
+Wire Wire Line
+	3450 4350 2850 4350
+Wire Wire Line
+	2850 4350 2850 4250
+Connection ~ 2850 4250
+Wire Wire Line
+	2850 4250 2850 4050
+Wire Wire Line
+	2700 4550 3450 4550
+Wire Wire Line
+	2700 4250 2850 4250
+Wire Wire Line
+	2700 3950 3450 3950
+Wire Wire Line
+	4650 4250 4650 3950
+Wire Wire Line
+	7800 2550 7650 2550
+Connection ~ 7650 2550
+Text Label 7800 2550 0    50   ~ 0
+out0
+Text Label 7800 4050 0    50   ~ 0
+out1
+Wire Wire Line
+	7800 4050 7650 4050
+Connection ~ 7650 4050
+Text Label 2700 2450 2    50   ~ 0
+out0
+Text Label 2700 2750 2    50   ~ 0
+load
+Text Label 2700 4250 2    50   ~ 0
+load
+Text Label 2700 3950 2    50   ~ 0
+out1
+Text Label 2700 3050 2    50   ~ 0
+in0
+Text Label 2700 4550 2    50   ~ 0
+in1
+$EndSCHEMATC
